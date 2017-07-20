@@ -9,7 +9,12 @@ Specifications
 |Specifications | Input | Output  |
 | --- | --- | --- |
 |1.When a user enters a number, it can count up to that provided number | 2 | 1,2 |
-|2.
+|2.When a user enters a 3, it will return "ping" | 3  | "ping"  |
+|3.When a user enters a 5, it will return "pong" | 5  | "pong"  |
+|4.When a user enters a multiple of 3, it will return "ping"| 6 | "pong" |
+|5.When a user enters a multiple of 5, it will return "pong"| 10 | "pong" |
+|6.When a user enter a multiple of 3 and 5, it will return "ping-pong" | 15 | "ping-pong" |
+|7.
 
 
 Prerequisites
