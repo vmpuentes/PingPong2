@@ -1,16 +1,19 @@
 //business Logic
-
-var currentGame = new game();
-var thePlayer = new player();
+var player1 = (function(name){
+  this.name = player1("player1");
+  this.currentTurn = currentTurn;
+  this.score = 0;
+}
+var currentGame = new Game();
+var thePlayer = new Player();
 
 game.prototype.submit = function() {
-  this.thiPlayer.score += this.roundTotal;
+  this.thisPlayer.score += this.roundTotal;
 }
+Player.prototype.getScore = function() {
+  return this.score;
 
-var player1result = 0;
-
-
-
+var player1Result = 0;
 
 
 //User Logic
