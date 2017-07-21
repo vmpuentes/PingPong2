@@ -15,7 +15,6 @@ Player.prototype.getScore = function() {
 
 var player1Result = 0;
 
-
 //User Logic
 $(document).ready(function(); {
   $("#userInput").submit(function(event) {

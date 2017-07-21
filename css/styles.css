@@ -1,5 +1,19 @@
+.container {
+  background-image: url("https://previews.123rf.com/images/istone_hun/istone_hun1209/istone_hun120900479/15469548-Sport-poster-table-tennis-racket-ball-and-man-background-with-space-Stock-Photo.jpg");
+  text-align: left;
+  font-size: 32px;
+  color: blue;
+}
+body {
 
-h1 {
-  font=size: 80px;
-  color: #44dd77;
+}
+#pingMain {
+  width: 200px;
+  height: 200px;
+  margin: 5%;
+  padding: 20px;
+}
+.jumbotron h1 {
+  font-size: 100px;
+  text-align: center;
 }
