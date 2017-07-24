@@ -1,56 +1,31 @@
 //*business Logic
-// var player1 = (function(name){
-//   this.name = player1("player1");
-//   this.currentTurn = currentTurn;
-//   this.score = 0;
-// }
-// var currentGame = new Game();
-// var thePlayer = new Player();
-//
-// game.prototype.submit = function() {
-//   this.thisPlayer.score += this.roundTotal;
-// }
-// Player.prototype.getScore = function() {
-//   return this.score;
-//
-// var player1Result = 0;
-//
-// //business Logic
-// var countToInput = function(number) {
-//   var countToInitialInput = [];
-//   for (var i = 1; i< number; i++) {
-//     countToInitialInput[i] = (i + 1);
-//   }
-var currentGame = (function(initialInput, currentTurn, countToInput) {
-var initialInputResult = countToInput(number);
-  for (var i = 0; i < initialInputResult.length; i++) {
-    if((countToInput[i] | 3) === true) {
-      countToInput[i] = "ping";
-    } else if ((countToInput[i] | 5) === true) {
-      countToInput[i] = "pong";
-    } else if ((countToInput[i] | 15) === true) {
-      countToInput[i] = "pingpong";
+function pingPong(input) {
+  var output = [];
+  for (var i = 1; i <= input ; i++) {
+    if (i % 15 === 0) {
+      output.push("pingpong");
+    } else if (i % 5 === 0) {
+      output.push("pong");
+    } else if (i % 3 === 0) {
+      output.push("ping");
+    } else {
+      output.push(i);
     }
   }
-
-return initialInputResult;
-
-// Game.prototype.submit = function() {
-//   this.thisPlayer.score += this.roundTotal;
-// }
-// Player.prototype.getScore = function() {
-//   return this.score;
-//
-// var player1Result = 0;
+  return output;
+}
 
 //User Logic
 $(document).ready(function() {
   $("#ping").submit(function(event) {
+    $("ul.output").empty();
     event.preventDefault();
-    console.log("hello");
-    var initialInput = parseInt$("#userInput").val();
-    var runResult = $initialInputResult(initialInput).val();
-    $(".submit").append("<li>" + runResult[i] + "<li>");
+    var initialInput = parseInt($("#userInput").val());
+    $("#userInput").val("")
+    console.log(initialInput);
+    var finalResult = pingPong(initialInput);
+    finalResult.forEach(function(item) {
+      $("ul.output").append("<li>" + item + "</li>");
+    })
   });
-});
 });

@@ -17,7 +17,8 @@ Specifications
 | Specifications | Input | Output  |
 | --- | --- | --- |
 |1.When a user enters a number, it can count up to that provided number | 2 | 1,2 |
-|2.When a user enters a 3, it will return "ping", as well as the numbers leading up to it. | 3  | "ping"  |
+|1a. When user enter a number, the return is dynamically sized | 1 | 1 |
+|2.When a user enters a 3, it will return "ping", as well as the numbers leading up to it. | 3  | 1,2,"ping"  |
 |3. When a user enters a 4, it will return, 1,2,"ping", 4. | 4 | 1,2,"ping", 4
 |3.When a user enters a 5, it will return, 1,2,"ping",4, "pong" | 5  | 1,2,"ping",4,"pong"  |
 |4.When a user enters a multiple of 3, it will return "ping" and "pong" for multiples of 5 | 6 | 1,2,"ping",4,"pong", 6  |

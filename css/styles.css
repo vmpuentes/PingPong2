@@ -1,5 +1,5 @@
 .container {
-  background-image: url("https://previews.123rf.com/images/istone_hun/istone_hun1209/istone_hun120900479/15469548-Sport-poster-table-tennis-racket-ball-and-man-background-with-space-Stock-Photo.jpg");
+  /*background-image: url("https://previews.123rf.com/images/istone_hun/istone_hun1209/istone_hun120900479/15469548-Sport-poster-table-tennis-racket-ball-and-man-background-with-space-Stock-Photo.jpg");*/
   text-align: center;
   font-size: 100px;
   color: blue;
@@ -14,7 +14,7 @@ body {
   padding: 20px;
 }
 .jumbotron {
-  background-image: url("https://previews.123rf.com/images/istone_hun/istone_hun1209/istone_hun120900479/15469548-Sport-poster-table-tennis-racket-ball-and-man-background-with-space-Stock-Photo.jpg");
+  /*background-image: url("https://previews.123rf.com/images/istone_hun/istone_hun1209/istone_hun120900479/15469548-Sport-poster-table-tennis-racket-ball-and-man-background-with-space-Stock-Photo.jpg");*/
   font-size: 24px;
   text-align: left;
 }
