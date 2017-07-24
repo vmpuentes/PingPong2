@@ -47,6 +47,7 @@ return initialInputResult;
 $(document).ready(function() {
   $("#ping").submit(function(event) {
     event.preventDefault();
+    console.log("hello");
     var initialInput = parseInt$("#userInput").val();
     var runResult = $initialInputResult(initialInput).val();
     $(".submit").append("<li>" + runResult[i] + "<li>");
